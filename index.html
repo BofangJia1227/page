@@ -20,11 +20,13 @@
   <script defer src="font-awesome-5.9.0/js/brands.min.js"></script>
   <script defer src="font-awesome-5.9.0/js/fontawesome.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
   <!-- Sidebar 的 MenuSpy 脚本 -->
   <script src="js/menuspy.js"></script>
   
-</head>
+  <head>
+  </head>
 
 <body>
   <section class="section">
@@ -42,7 +44,7 @@
             <div class="content">
               <h3>Bofang Jia</h3>
               <h6>贾博方</br>
-                <h6></br>
+                <h6>Embodied AI</br>
                   </br>
                   Engineering undergraduate</h6>
             </div>
@@ -65,7 +67,7 @@
                   <span class="fab fa-linkedin fa-2x" style="display:inline; text-decoration: none"></span>
                 </a>
                 <a href="https://twitter.com/BofangJia78170" target="_blank">
-                  <span class="fab fa-twitter fa-2x" style="display:inline; text-decoration: none"></span>
+                  <span class="fas fa-envelope fa-2x" style="display:inline; text-decoration: none"></span>
                 </a>
                 
             </div>
@@ -75,13 +77,13 @@
             <div id="sidebar" class="menu sticky is-hidden-mobile" >
               <p class="menu-label"><b>Quick link</b></p>
               <ul class="menu-list">
-                <li><a href="#intro">Intro</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#publication">Publication</a></li>
-                <li><a href="#robotics">Robotics</a></li>
+                <li><a href="#Intro">Intro</a></li>
+                <li><a href="#News">News</a></li>
+                <li><a href="#Publication">Publication</a></li>
+                <li><a href="#Robotics">Robotics</a></li>
                 <li><a href="#Honors and Awards">Honors and Awards</a></li>
                 <li><a href="#Contribution">Contribution</a></li>
-                <li><a href="#interests">Interests</a></li>
+                <li><a href="#Interests">Interests</a></li>
               </ul>
             </div>
           </div>
@@ -95,24 +97,48 @@
               </picture>
             </div>
             <!-- 个人介绍 -->
-            <h3 id="intro">Intro</h3>
+            <h2 id="Intro">Intro</h2>
+            <p>I am a final-year undergraduate student in the Department of Automation at the College of Computer and Information Science, Southwest University. And now I'm also a visiting student in Westlake University, advised by Prof. <a href="https://milab.westlake.edu.cn/index.html" target="_blank" style="text-decoration: underline;">Donglin Wang</a>. In the past two years, I have served as a research assistant in the Artificial Intelligence and Big Data Laboratory, working on legal judgment documents advised by Professor <a href="http://cis.swu.edu.cn/info/1013/1156.htm" target="_blank" style="text-decoration: underline;">Li Li</a>. Later, under the guidance of Associate Professor <a href="http://cis.swu.edu.cn/info/1014/2049.htm" target="_blank" style="text-decoration: underline;">Le Yin</a>, I worked on the electronic design of autonomous vehicles and related tasks involving ROS and SLAM in the Electronic Design Innovation Laboratory.
+              <br>
+              <br>
+              My research interests are primarily focused on <b>Embodied Artificial Intelligence</b> and <b>Computer Vision</b>. My research interests focus on how to achieve broad <b>generalization</b> capabilities for open-world manipulation tasks, the application of <b>Visual-Language-Action</b> models to robots, and <b>inference acceleration</b>.
+              <br>
+              <br>
+              I am passionate about interdisciplinary research and enjoy thinking about and solving <b>real-world problems</b>. I believe that through the development of robotic technology, combined with knowledge from <b>deep learning</b>, <b>robot learning</b>, <b>reinforcement learning</b>, and <b>control engineering</b>, we can advance technology in fields such as <b>healthcare</b>, <b>education</b>, and <b>home environments</b>, bringing tangible benefits to society. This also contributes to the realization of AGI, which is a lifelong aspiration for me. I hope to make the most of my time and progress together with others in this field.
+              </p>
             
             <!-- 新闻 -->
-            <h3 id="news">News</h3>
+            <h2 id="News">News</h2>
             <p style="font-size:20px">
-              <li>[2024/03]Visiting the Intel FPGA China Innovation Center, starting an internship</li>
-                <div style="display: flex; justify-content: space-between; align-items: start; text-align: center;">
-                  <div style="width: 50%;">
-                    <img src="images/16.png" style="width: 100%; height: auto; object-fit: cover;">
-                  </div> 
-                </div>
+              <li>[2024/04]One paper “DLEE: A Dataset for Chinese Document-level Legal Event Extraction” get accepted to NCAA.</li>
+                
             </p>
+
               <!-- 出版物 -->
-            <h3 id="publication">Publication</h3>
-            
+            <h2 id="Publication">Publication</h2>
+            <article class="columns">
+              <div class="column is-3">
+                <picture class="image">
+                  <img src="C:\Users\admin\Desktop\1.png">
+                </picture>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>DLEE: A Dataset for Chinese Document-level Legal Event Extraction</b><br>
+                    Guochuan Xian, Siyuan Du, Xi Tang, Yuan Shi, <b>Bofang Jia</b>, Banghao Tang, Zhefu Leng, Li Li.<br>
+                    Neural Computing and Applications (<b>NCAA</b>)</br>
+                    <a href="#" target="_blank">[<u>Webpage</u>]</a>
+                    <a href="https://link.springer.com/article/10.1007/s00521-024-09907-4" target="_blank">[<u>Paper</u>]</a>
+                    <a href="#" target="_blank">[<u>Code</u>]</a>
+                  </p>
+                </div>
+              </div>
+            </article>
+
             </ul>
             <!-- 机器人系统 -->
-            <h3 id="robotics">Robotics</h3>
+            <h2 id="Robotics">Robotics</h2>
             <p>I have some experience in designing and implementing robotic systems. Here are some of the robotic systems I have helped develop:</p>
             <ul>
               <li>
@@ -192,7 +218,7 @@
                   
             </ul>
             <!-- 荣誉和奖励 -->
-            <h3 id="Honors and Awards">Honors and Awards</h3>
+            <h2 id="Honors and Awards">Honors and Awards</h2>
             <ul>
                 <li>2022-2023 Southwest University First-Class Scholarship (Top 3%)</li>
                 <li>2021-2022 Southwest University Second-Class Scholarship (Top 8%)</li>
@@ -204,7 +230,7 @@
 
                     <!-- 贡献 -->
 
-                    <h3 id="Contribution">Contribution</h3>
+                    <h2 id="Contribution">Contribution</h2>
 
                     <li>
                         <b>Semi-automatic data annotation and processing</b>:
@@ -260,7 +286,7 @@
                 </li>
 
             <!-- 兴趣爱好 -->
-            <h3 id="interests">Interests</h3>
+            <h2 id="Interests">Interests</h2>
             <p>Besides my daily coursework and research, I also have some other interests and hobbies:</p>
             <ul>
               <li>Debating: Enjoy participating in and appreciating Chinese debates, and have achieved some success.</li>
@@ -295,10 +321,10 @@
             <br />
 
             <div style="text-align: center;">
-              Update: 2024.3
+              Update: 2024.8
+              <br></br>
+              The website template was borrowed from <a href="http://hansf.me/" target="_blank" style="text-decoration: underline;">Dr.Songfang Han.
             </div>
-
-            <br />
             
           </div>
         </div>
